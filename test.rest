@@ -1,0 +1,11 @@
+###
+GET http://localhost:5001/Arib/123
+
+
+
+### Query search - type-1
+GET http://localhost:5001/search? q="apple" & color="green"
+
+
+### Query search - type-2
+GET http://localhost:5001/search?q="apple"
