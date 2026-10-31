@@ -57,8 +57,7 @@ app.get("/ig/:username", (req, res) => {
     let { username } = req.params;
 
     const instaData = require("./data.json");
-    console.log(instaData);
-
+   
 
     // browser e jeta search krbo tar data dibe
     let data = instaData[username];  // data te instaData er value ase
